@@ -55,6 +55,13 @@ li a:hover {
     background: linear-gradient(90deg, rgba(250, 135, 8, 1) 1%, rgba(250, 135, 8, 0.7875525210084033) 89%);
 }
 
+.titulo img{
+    max-width: 3000px;
+    max-height: 700px;
+    position: relative;
+    opacity: 0.7;
+}
+
 
 
 @media only screen and (max-width: 400px) {
