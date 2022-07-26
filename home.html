@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="author" content="GV">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="GPKG">
+    <meta name="description" content="DEVGV">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="styles/home.css">
@@ -15,38 +15,64 @@
     <div class="menu">
         <div class="logo">
 
-            <img src="img/cooking.png" alt="logo">
-    
+            <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_r4ykplqw.json"
+                    background="transparent" speed="1" style="width: 130px; height: 130px;" autoplay>
+                </lottie-player>
         </div>
         <nav>
             <ul>
-                <li><a class="corrente" href="index.html">Home</a></li>
+                <li><a href="home.html">Home</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="receitas.html">Receitas</a></li>
                 <li><a href="contato.html">Contato</a></li>
-                
+
             </ul>
         </nav>
-        
+
     </div>
-    
+
 
     <div class="corpo">
-        <div class="container-corpo">
-            <div class="row">
-                <div class="titulo">
-                    <h1>Bem-vindo ao site do Dito Lambari!</h1>
-                    <p>
-                        Os melhores pratos de comidas cuiabanas estão aqui!
-                    </p>
+        <div class="row">
+            <div class="titulo">
+                <h1>Bem-vindo ao site do Dito Lambari!. Os melhores pratos de comidas cuiabanas estão aqui!</h1>
+                <p>
 
-                    <div>
-                        <img src="img/restaurante.jpg" alt="restaurante">
-                    </div>
-                </div>
+                </p>
             </div>
         </div>
-    </div>
+        <div class="cards">
+            <div class="card" onclick="window.location='receitas.html'">
+                <h2>Receitas</h2>
+                <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_gdteydzj.json"
+                    background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay>
+                </lottie-player>
+                <p>
+                    As melhores receitas de Dito Lambari
+                </p>
+            </div>
+
+            <div class="card sobre" onclick="window.location='sobre.html'">
+                <h2>Sobre</h2>
+                <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_nfzjxjbh.json"
+                    background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay>
+                </lottie-player>
+                <p>
+                    Tudo sobre o melhor restaurante do Brasil
+                </p>
+            </div>
+            <div class="card contato" onclick="window.location='contato.html'">
+                <h2>Contato</h2>
+                <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_zj3qnsfs.json"
+                    background="transparent" speed="1" style="width: 300px; height: 300px;" loop autoplay>
+                </lottie-player>
+                <p>
+                    Contatos
+                </p>
+            </div>
+        </div>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </body>
+
 
 </html>
